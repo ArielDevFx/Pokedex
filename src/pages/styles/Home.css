@@ -1,0 +1,36 @@
+.pokedex__img {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 10vh;
+  max-width: 676px;
+  max-height: 121px;
+}
+
+.pokedex__subtitle {
+  text-align: center;
+  color: #FE1936;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 61px;
+  padding: 20px;
+}
+
+.pokedex__text {
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 30px;
+  text-align: center;
+  color: #302F2F;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 375px)
+{
+  .pokedex__img
+  {
+    width: 100%;
+  }
+}
